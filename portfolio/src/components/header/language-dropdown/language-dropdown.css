@@ -2,3 +2,7 @@
     display: flex;
     align-items: center;
 }
+
+.autocomplete{
+    width: 140px;
+}

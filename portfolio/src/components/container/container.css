@@ -1,7 +1,15 @@
 .headerContainer {
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+.headerContainer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     align-items: center;
 }

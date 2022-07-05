@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from "react";
+import React, { FunctionComponent, useState } from "react";
 import { withStyles, Theme, createStyles } from "@material-ui/core/styles";
 import Switch from "@material-ui/core/Switch";
 import Grid from "@material-ui/core/Grid";
@@ -52,7 +52,7 @@ export const ToggleTheme: FunctionComponent<IToggleProps> = ({
   theme,
   toggleTheme,
 }) => {
-  const [state, setState] = React.useState({ checked: theme === "dark" });
+  const [state, setState] = useState({ checked: theme === "dark" });
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     toggleTheme();

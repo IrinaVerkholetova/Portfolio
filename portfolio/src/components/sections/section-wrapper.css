@@ -1,0 +1,22 @@
+.sectionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px 0px;
+}
+
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 920px) {
+    .columns{
+        flex-direction: column;
+    }
+
+    .section.columns{
+        flex-direction: row;
+    }
+}

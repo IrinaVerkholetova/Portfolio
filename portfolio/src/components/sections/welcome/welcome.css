@@ -1,0 +1,10 @@
+.aboutDeveloper {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+
+.photo{
+    content: url("../../../assets/image/Verkholetova_Irina_1.png");
+    width: 240px;
+}

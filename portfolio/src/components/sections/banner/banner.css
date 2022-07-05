@@ -1,0 +1,15 @@
+.wrapper-banner {
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner > span {
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
