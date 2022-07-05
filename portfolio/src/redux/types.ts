@@ -4,6 +4,8 @@ export const ActionTypes = {
 
 export interface ILanguage {
   key: string;
+  id: string;
+  defaultMessage: string;
   label: JSX.Element;
 }
 
