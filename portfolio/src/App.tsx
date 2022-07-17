@@ -1,5 +1,6 @@
 import React from "react";
-
+import "./App.css";
+import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 
@@ -11,8 +12,10 @@ function App() {
   return (
     <ErrorBoundary>
       <Provider store={store}>
-        <ContainerComponent />
-        <BackTopComponent />
+        <BrowserRouter>
+          <ContainerComponent />
+          <BackTopComponent />
+        </BrowserRouter>
       </Provider>
     </ErrorBoundary>
   );
