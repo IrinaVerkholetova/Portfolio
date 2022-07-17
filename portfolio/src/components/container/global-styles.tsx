@@ -80,6 +80,9 @@ export const GlobalStyles: GlobalStyleComponent<
 
   header {
     padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
   footer {
     position: absolute;
@@ -96,11 +99,7 @@ export const GlobalStyles: GlobalStyleComponent<
     display: block;
   }
 
-  a, label, span, select, input {
-    color: ${({ theme }) => theme.text};
-  }
-
-  p {
+  a, label, span, select, input, p {
     color: ${({ theme }) => theme.text};
   }
 `;

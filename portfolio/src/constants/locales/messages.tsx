@@ -28,6 +28,8 @@ export const messages = {
       "Kozma Minin Nizhny Novgorod State Pedagogical University (Minin University)",
     COLLEGE: "Nizhny Novgorod provincial Сollege",
     COMPANY_MERA: "MERA NN",
+    APPLICATIONS: "Applications",
+    SETTINGS: "Settings",
   },
   [LOCALES.RUSSIAN]: {
     PORTFOLIO: "Портфолио",
@@ -57,5 +59,7 @@ export const messages = {
       "Нижегородский государственный педагогический университет имени Козьмы Минина",
     COLLEGE: 'ГБПОУ "Нижегородский Губерский колледж"',
     COMPANY_MERA: "Mера НН",
+    APPLICATIONS: "Приложения",
+    SETTINGS: "Настройки",
   },
 };
